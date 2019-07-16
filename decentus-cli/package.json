@@ -1,0 +1,23 @@
+{
+  "name": "decentus",
+  "version": "1.0.7",
+  "description": "decentus tools",
+  "main": "decentus.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=10.12"
+  },
+  "engineStrict": "true",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.9",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "bin": {
+    "decentus": "./decentus.js"
+  }
+}
